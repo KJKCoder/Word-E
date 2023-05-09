@@ -14,7 +14,7 @@
 ---
 
 <aside>
-💡 [**https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main**](https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main)
+💡 **https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main**
 
 </aside>
 
