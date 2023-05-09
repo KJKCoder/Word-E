@@ -140,7 +140,7 @@ python manage.py runserver
 - 일정관리: `NOTION`
 
 <aside>
-💡 https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main
+💡 https://scythe-hockey-40e.notion.site/561866bfbb28409590d139bedb1ba44b?v=761691d6d32f4c98a65b6b928c583ec6
 
 </aside>
 
