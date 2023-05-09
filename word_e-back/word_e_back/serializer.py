@@ -99,7 +99,7 @@ class 게시물태그필터Serializer(serializers.ModelSerializer):
         return {
                 "제목":[cur[0] for cur in instance],
                 "작성자":[cur[1] for cur in instance],
-                "최종수정일":[cur[2] for cur in instance],
+                "최종수정일":[str(cur[2])[:11] for cur in instance],
                 "모델_id":[cur[3] for cur in instance],
                 "총글개수":all_post_num
             }
@@ -137,8 +137,8 @@ class 게시물태그보기Serializer(serializers.ModelSerializer):
                 "모델_id": contents[0],
                 "제목": contents[1],
                 "작성자": contents[2],
-                "작성일": contents[3],
-                "수정일": contents[4],
+                "작성일": str(contents[3])[:11],
+                "수정일": str(contents[4])[:11],
                 "글내용_모델": contents[5],
                 "글내용_데이터": contents[6],
                 "유저_id": contents[7],
