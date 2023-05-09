@@ -14,7 +14,7 @@
 ---
 
 <aside>
-💡 **https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main**
+💡 https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main
 
 </aside>
 
@@ -140,7 +140,7 @@ python manage.py runserver
 - 일정관리: `NOTION`
 
 <aside>
-💡 [https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main](https://www.notion.so/561866bfbb28409590d139bedb1ba44b)
+💡 https://web-word-e-front-5llo2alhg6lxfy.sel4.cloudtype.app/main
 
 </aside>
 
