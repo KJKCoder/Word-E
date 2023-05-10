@@ -1,5 +1,8 @@
 import axios from "axios";
 
+// DJANGO API 모음입니다.
+
+// DEMO 관련
 export async function post_demo_words(input_words, model_id){
     try{
         const datas = {"input_words":input_words, "모델_id":model_id}
@@ -32,6 +35,8 @@ export async function post_demo_sentence(target_sentence, sentence_list, model_i
     }
 }
 
+
+// Authorization 관련
 export function get_auth_header(){
     const access_token = localStorage.getItem('access_token');
     const headers = {"access-token": access_token};
@@ -57,6 +62,8 @@ export async function get_user_info(){
     }
 }
 
+
+//글(포스트) 내용 가져오기
 export async function get_post_contents(model_id){
     try{
         const res = await axios.post(`http://127.0.0.1:8000/model/modify/${model_id}/`, get_auth_header())
@@ -71,6 +78,7 @@ export async function get_post_contents(model_id){
     }
 }
 
+//모델 페이지 관련
 export async function get_user_import_model_list(){
     try{
         const res = await axios.post("http://127.0.0.1:8000/user-import-model-list/", get_auth_header())
@@ -130,6 +138,8 @@ export async function delete_user_import_model(model_id){
         return false
     }
 };
+
+//Login 관련
 
 export async function Login_Try(id, password) {
 
